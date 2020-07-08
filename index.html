@@ -19,6 +19,10 @@
         color: #333;
     }
 
+    label {
+        font-size: 16px;
+    }
+
     input {
         display: block;
         margin-top: 1em;
@@ -65,9 +69,18 @@
         </p>
 
         <form id="contactform" action="https://formspree.io/xayppkwe" method="POST">
-            <input class="single-line" type="text" name="name" placeholder="Your name">
-            <input class="single-line" type="email" name="_replyto" placeholder="Your email">
-            <textarea name="message" placeholder="Your message"></textarea>
+            <p>
+                <label for="author">Name</label>
+                <input id="author" class="single-line" type="text" name="name" placeholder="Your name">
+            </p>
+            <p>
+                <label for="email">Email</label>
+                <input id="email" class="single-line" type="email" name="_replyto" placeholder="Your email">
+            </p>
+            <p>
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Your message"></textarea>
+            </p>
             <input type="submit" value="Send">
             <input type="text" name="_gotcha" style="display:none" />
         </form>
