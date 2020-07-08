@@ -1,0 +1,76 @@
+<!doctype html>
+<meta charset="UTF-8">
+<title>Site under construction</title>
+<style>
+    @import url("https://fonts.googleapis.com/css?family=Titillium+Web:200,400,600");
+
+    body {
+        text-align: center;
+        padding: 150px;
+        font-family: 'Titillium Web';
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    body {
+        font: 20px Helvetica, sans-serif;
+        color: #333;
+    }
+
+    input {
+        display: block;
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+    
+    article {
+        display: block;
+        text-align: left;
+        width: 650px;
+        margin: 0 auto;
+    }
+
+    a {
+        color: #dc8100;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: #333;
+        text-decoration: none;
+    }
+
+    input, textarea {
+        box-sizing: border-box;
+    }
+
+    input.single-line, textarea {
+        width: 100%;
+        margin-top: 5px;
+        height: 25px;
+    }
+
+    textarea {
+        height: 200px;
+    }
+</style>
+
+<article>
+    <h1>AMS Law Offices's site is coming soon!</h1>
+    <div>
+        <p>
+            Our site is currently under construction and will be available soon. Please contact us using the form below!
+        </p>
+
+        <form id="contactform" action="https://formspree.io/xayppkwe" method="POST">
+            <input class="single-line" type="text" name="name" placeholder="Your name">
+            <input class="single-line" type="email" name="_replyto" placeholder="Your email">
+            <textarea name="message" placeholder="Your message"></textarea>
+            <input type="submit" value="Send">
+            <input type="text" name="_gotcha" style="display:none" />
+        </form>
+
+    </div>
+</article>
