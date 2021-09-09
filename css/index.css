@@ -46,6 +46,9 @@ a[href] {
 a[href]:visited {
   color: var(--navy);
 }
+footer {
+  padding-left: 1rem;
+}
 main {
   padding: 1rem;
 }
